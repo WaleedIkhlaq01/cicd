@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Run PHP CS Fixer
+./vendor/bin/pint
+
+# Add the changes to the staging area
+git add .
+
+# Continue with the commit
+exit 0
