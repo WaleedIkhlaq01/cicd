@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+
+    $r=[1,2,2,3,3,4,34,34,34,34,34,3];
 });
