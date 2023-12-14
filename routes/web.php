@@ -16,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 
+});
+Route::get('/tests', function () {
     $r = [1, 2, 2, 3, 3, 4, 34, 34, 34, 34, 34, 3, 43, 44, 20, 70];
+
+    return response()->json($r);
 });
